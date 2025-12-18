@@ -1,4 +1,4 @@
-# Emergency Communication System using LoRa and ESP32
+# Penetrative Communication System using LoRa and ESP32
 
 ## 📌 Project Overview
 This project implements a *low-cost Emergency Communication System* designed for *remote, hilly, and disaster-prone regions* where GSM/4G networks are unreliable or unavailable.  
@@ -89,4 +89,5 @@ This makes it significantly cheaper than satellite-based emergency systems.
 - Mobile/web dashboard integration  
 - Solar-powered operation  
 - Encrypted communication  
+
 - Integration with disaster management systems
