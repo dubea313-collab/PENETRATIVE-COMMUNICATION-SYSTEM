@@ -1,0 +1,27 @@
+
+•	LoRa (SX127x)
+
+o	NSS (CS) -> GPIO 18
+o	SCK -> GPIO 5
+o	MOSI -> GPIO 27
+o	MISO -> GPIO 19
+o	RST -> GPIO 14
+o	DIO0 -> GPIO 26
+o	Antenna connected to module SMA
+
+•	GPS (NEO-6M/NEO-M8N)
+
+o	GPS TX -> ESP32 RX2 (GPIO 16)
+o	GPS RX -> ESP32 TX2 (GPIO 17) (not required for basic NMEA output)
+o	VCC -> 3.3V, GND -> GND
+•	SOS Button
+o	One side -> GPIO 4 (with pinMode INPUT_PULLUP in code)
+o	Other side -> GND (so press = LOW).
+
+•	Status LED
+
+o	LED -> GPIO 2 (with resistor), or use on-board LED if available.
+
+•	Battery sense (optional)
+
+o	Voltage divider output -> ADC pin 35 (BAT_PIN). Make sure divider keeps voltage ≤ 3.3V.

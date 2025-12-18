@@ -1,0 +1,18 @@
+•	LoRa (SX127x) (same pins as user device example)
+
+o	NSS (CS) -> GPIO 18
+o	SCK -> GPIO 5
+o	MOSI -> GPIO 27
+o	MISO -> GPIO 19
+o	RST -> GPIO 14
+o	DIO0 -> GPIO 26
+o	Antenna attached
+
+•	SIM800L
+
+o	SIM800L TX -> ESP32 RX1 (GPIO 16) (SIM TX -> ESP32 RX)
+o	SIM800L RX -> ESP32 TX1 (GPIO 17) (SIM RX -> ESP32 TX)
+o	SIM800L GND -> ESP32 GND (common ground)
+o	Power: SIM800L needs a stable 4.0–4.2 V supply capable of 2A bursts. Do NOT power from ESP32 5V USB. Use a dedicated LiPo/regulator and add decoupling.
+
+•	Power for ESP32: 5V USB adapter or appropriate regulated supply.

@@ -1,0 +1,9 @@
+
+1.	1 × ESP32 dev board (ESP32-WROOM or similar) — brains.: (₹340)  
+2.	1 × LoRa module (RFM95 / SX127x) in the ISM band for your country — choose 868 MHz :(₹950)
+3.	1 × GNSS/GPS breakout (u-blox NEO-M8N or NEO-7M) — for coordinates. (₹715)
+4.	1 × momentary pushbutton (SOS). (₹30)
+5.	1 × small Li-ion battery (3.7V, ~2000–3000 mAh) + protection board / holder. (₹570)
+6.	1 × TP4056 charger module (or smart charger) and USB cable. (₹25)
+7.	1 × antenna matched to your LoRa frequency [868 MHz], (SMA or threaded). (₹450)
+8.	Optional: small OLED (SSD1306) or LED for status, enclosure. (₹200)
