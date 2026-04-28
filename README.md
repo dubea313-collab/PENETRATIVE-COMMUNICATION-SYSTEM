@@ -91,3 +91,6 @@ This makes it significantly cheaper than satellite-based emergency systems.
 - Encrypted communication  
 
 - Integration with disaster management systems
+
+
+  By Andile Tafuma Dube
